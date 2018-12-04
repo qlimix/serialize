@@ -2,7 +2,7 @@
 
 namespace Qlimix\Serializable;
 
-trait GetNameTrait
+trait GetClassNameTrait
 {
     /**
      * @return string
