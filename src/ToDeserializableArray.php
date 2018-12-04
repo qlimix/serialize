@@ -2,7 +2,7 @@
 
 namespace Qlimix\Serializable;
 
-trait GetSerializableMessageTrait
+trait ToDeserializableArray
 {
     /** @var SerializableInterface */
     private $message;
@@ -10,7 +10,7 @@ trait GetSerializableMessageTrait
     /**
      * @return array
      */
-    public function getMessage(): array
+    public function toDeserializableArray(): array
     {
         return [
             'name' => $this->message->getName(),
