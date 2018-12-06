@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Qlimix\Serializable;
+namespace Qlimix\Serialize;
 
 trait GetClassNameTrait
 {

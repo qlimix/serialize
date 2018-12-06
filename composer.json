@@ -1,5 +1,5 @@
 {
-    "name": "qlimix/serializable",
+    "name": "qlimix/serialize",
     "type": "package",
     "license": "LGPL-3.0-only",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Qlimix\\Serializable\\": "src/"
+            "Qlimix\\Serialize\\": "src/"
         }
     },
     "require": {
