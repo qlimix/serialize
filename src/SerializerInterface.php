@@ -9,7 +9,9 @@ interface SerializerInterface
     /**
      * @param SerializableInterface $serializable
      *
+     * @return array
+     *
      * @throws DeserializeException
      */
-    public function serialize(SerializableInterface $serializable): void;
+    public function serialize(SerializableInterface $serializable): array;
 }
