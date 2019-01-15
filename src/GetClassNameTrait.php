@@ -2,13 +2,12 @@
 
 namespace Qlimix\Serialize;
 
+use function get_class;
+
 trait GetClassNameTrait
 {
-    /**
-     * @return string
-     */
     public function getName(): string
     {
-        return \get_class($this);
+        return get_class($this);
     }
 }

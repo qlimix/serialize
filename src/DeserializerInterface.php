@@ -7,8 +7,6 @@ use Qlimix\Serialize\Exception\SerializeException;
 interface DeserializerInterface
 {
     /**
-     * @param array $data
-     *
      * @return mixed
      *
      * @throws SerializeException

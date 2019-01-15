@@ -2,6 +2,8 @@
 
 namespace Qlimix\Serialize\Exception;
 
-final class SerializeException extends \Exception
+use Exception;
+
+final class SerializeException extends Exception
 {
 }
