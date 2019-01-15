@@ -2,14 +2,14 @@
 
 namespace Qlimix\Serialize;
 
-use Qlimix\Serialize\Exception\DeserializeException;
+use Qlimix\Serialize\Exception\SerializeException;
 
 interface SerializerInterface
 {
     /**
      * @param object|array $serializable
      *
-     * @throws DeserializeException
+     * @throws SerializeException
      */
     public function serialize($serializable): array;
 }
