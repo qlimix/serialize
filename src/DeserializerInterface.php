@@ -7,9 +7,9 @@ use Qlimix\Serialize\Exception\SerializeException;
 interface DeserializerInterface
 {
     /**
-     * @return mixed
+     * @param mixed[] $data
      *
      * @throws SerializeException
      */
-    public function deserialize(array $data);
+    public function deserialize(array $data): object;
 }
