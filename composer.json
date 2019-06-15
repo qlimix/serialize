@@ -1,25 +1,31 @@
 {
     "name": "qlimix/serialize",
     "type": "library",
+    "description": "Serialize and deserialize objects",
     "license": "MIT",
+    "keywords": [
+        "qlimix",
+        "serialize",
+        "deserialize"
+    ],
     "authors": [
         {
             "name": "frank",
             "email": "frank@qlimix.net"
         }
     ],
+    "require": {
+        "php": ">=7.2"
+    },
     "autoload": {
         "psr-4": {
             "Qlimix\\Serialize\\": "src/"
         }
     },
-    "require": {
-        "php": ">=7.2"
+    "config": {
+        "sort-packages": true
     },
     "require-dev": {
         "qlimix/code-standard": "^1.0"
-    },
-    "config": {
-        "sort-packages": true
     }
 }
