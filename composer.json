@@ -4,7 +4,6 @@
     "description": "Serialize and deserialize objects",
     "license": "MIT",
     "keywords": [
-        "qlimix",
         "serialize",
         "deserialize"
     ],
@@ -15,7 +14,10 @@
         }
     ],
     "require": {
-        "php": ">=7.2"
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "qlimix/code-standard": "^2.0"
     },
     "autoload": {
         "psr-4": {
@@ -24,8 +26,5 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "require-dev": {
-        "qlimix/code-standard": "^1.0"
     }
 }
